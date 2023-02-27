@@ -5,7 +5,7 @@ import { updateCompletedStatus } from './modules/status.js';
 let itemsArray = localStorage.getItem('items') ? JSON.parse(localStorage.getItem('items')) : [];
 
 export { itemsArray };
-
+  
 function activateEditListeners() {
   const editBtn = document.querySelectorAll('.editBtn');
   const updateController = document.querySelectorAll('.update-controller');
